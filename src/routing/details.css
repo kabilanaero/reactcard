@@ -1,0 +1,27 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+ .det-cont{
+   width:90%;
+   margin: auto;
+ }
+ .det-row{
+    display: flex;
+    gap: 10px;
+   
+ }
+ .det-col{
+    padding-top: 50px;
+    width:50%;
+ }
+ .det-col h2{
+    color:darkcyan;
+    padding-bottom: 30px ;
+ }
+ .det-col p{
+    color:darkgray;
+    padding: 10px 0;
+ }

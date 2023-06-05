@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding:15px;
+}
+.row{
+    display: flex;
+}
+.col{
+    width:33.3%;
+}
+.link{
+    text-decoration: none;
+    color: blue;
+}
+.card{
+    display:flex ;
+    justify-content: space-between;
+    padding-top: 10PX;
+}
+.col h2{
+    color: gold;
+}
+.col p{
+    color:darkgray;
+}
+.price p{
+    color:lightseagreen;
+}
+.stock p{
+    color:firebrick;
+}
